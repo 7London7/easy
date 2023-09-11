@@ -1,5 +1,5 @@
-#ifndef ES1_H_INCLUDED
-#define ES1_H_INCLUDED
+#ifndef EASY_H_INCLUDED
+#define EASY_H_INCLUDED
 #include <iostream>
 void itc_name();
 void itc_fio();
