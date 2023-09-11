@@ -7,6 +7,7 @@ int itc_revnbr(int num){
   a = num % 10;
   num = num / 10;
   return a;
+    }
 }
 bool itc_iseven(int num){
     if(num % 2 == 0){
