@@ -28,5 +28,7 @@ int itc_spr(int a, int b){
     return -1;
 }
 int itc_str(int a, int b, int c){
-    return a;
+    int sum;
+    sum = a + b + c;
+    return sum;
 }
