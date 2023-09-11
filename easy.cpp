@@ -25,7 +25,11 @@ double itc_fabs(double num) {
         }
     }
 int itc_revnbr(int num){
-    return 0;
+    int a;
+    while(num > 0){
+  a = num % 10;
+  num = num / 10;
+  cout << a;
 }
 bool itc_iseven(int num){
     if(num % 2 == 0){
