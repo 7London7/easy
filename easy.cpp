@@ -81,7 +81,7 @@ int itc_spr(int a, int b){
     }
     return -1;
 }
-itc_str(int a, int b, int c){
+int itc_str(int a, int b, int c){
     return a;
 }
 double itc_scir(int radius){
