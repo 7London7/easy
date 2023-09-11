@@ -6,7 +6,7 @@ int itc_revnbr(int num){
     while(num > 0){
   a = num % 10;
   num = num / 10;
-  cout << a;
+  return a;
 }
 bool itc_iseven(int num){
     if(num % 2 == 0){
