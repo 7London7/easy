@@ -25,7 +25,7 @@ double itc_fabs(double num) {
         }
     }
 int itc_revnbr(int num){
-    return (num - num / 10) * 100 + (num / 10 - num / 100 * 10) * 10 + (num / 100);
+    return 0;
 }
 bool itc_iseven(int num){
     if(num % 2 == 0){
