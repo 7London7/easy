@@ -4,7 +4,6 @@ using namespace std;
 int itc_revnbr(int num){
     int a = 0;
     int k = 0;
-    int h;
     if(num < 0){
     num = itc_fabs(num);
     while(num > 0){
