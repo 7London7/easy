@@ -16,8 +16,10 @@ int itc_sqrt(int num){
     return -1;
 }
 int itc_skv(int num){
-    if (num >= 0){
-        return num * num;
+    int a;
+    if(num >= 0){
+    a = num * num;
+        return a;
     }else{
     return -1;
     }
