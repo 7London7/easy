@@ -25,8 +25,10 @@ int itc_skv(int num){
     }
 }
 int itc_spr(int a, int b){
+    int c;
     if(a >= 0 && b >= 0){
-        return a * b;
+            c = a * b;
+        return c;
     }else{
     return -1;
     }
