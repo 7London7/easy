@@ -22,7 +22,6 @@ int itc_revnbr(int num){
         return k;
         }
     }
-}
 bool itc_iseven(int num){
     if(num % 2 == 0){
         return true;
