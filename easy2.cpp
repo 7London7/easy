@@ -4,12 +4,23 @@ using namespace std;
 int itc_revnbr(int num){
     int a = 0;
     int k = 0;
+    int h;
+    if(num < 0){
+    num = itc_fabs(num);
     while(num > 0){
   a = num % 10;
   num = num / 10;
   k = k * 10 + a;
     }
-return k;
+        return k;
+        }else{
+        while(num > 0){
+  a = num % 10;
+  num = num / 10;
+  k = k * 10 + a;
+            }
+        }
+    }
 }
 bool itc_iseven(int num){
     if(num % 2 == 0){
