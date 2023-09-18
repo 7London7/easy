@@ -12,13 +12,14 @@ int itc_revnbr(int num){
   num = num / 10;
   k = k * 10 + a;
     }
-        return k;
+        return k * -1;
         }else{
         while(num > 0){
   a = num % 10;
   num = num / 10;
   k = k * 10 + a;
             }
+        return k;
         }
     }
 }
