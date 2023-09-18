@@ -2,7 +2,10 @@
 #include <iostream>
 using namespace std;
 double itc_scir(int radius){
-        return 0;
+        double sum;
+        double p = 3.14;
+        sum = 2 * p * a;
+        return sum;
 }
 double itc_pow(int num, int step){
  return 0;
