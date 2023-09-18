@@ -30,7 +30,10 @@ int itc_spr(int a, int b){
     }
 }
 int itc_str(int a, int b, int c){
-    int sum;
-    sum = a + b + c;
-    return sum;
+    int g;
+    double p, sum;
+    p = 3.14;
+    sum = (p * (p - a)*(p - b)*(p - c));
+    return itc_sqrt(sum);
 }
+
