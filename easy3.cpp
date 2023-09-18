@@ -18,8 +18,9 @@ int itc_sqrt(int num){
 int itc_skv(int num){
     if (num >= 0){
         return num * num;
-    }
+    }else{
     return -1;
+    }
 }
 int itc_spr(int a, int b){
     if(a >= 0 && b >= 0){
