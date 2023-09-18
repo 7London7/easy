@@ -4,7 +4,7 @@ using namespace std;
 double itc_scir(int radius){
         double sum;
         double p = 3.14;
-        sum = 2 * p * a;
+        sum = 2 * p * radius;
         return sum;
 }
 double itc_pow(int num, int step){
