@@ -2,12 +2,14 @@
 #include <iostream>
 using namespace std;
 int itc_revnbr(int num){
-    int a;
+    int a = 0;
+    int k = 0;
     while(num > 0){
   a = num % 10;
   num = num / 10;
-  return a;
+  k = k * 10 + a;
     }
+return k;
 }
 bool itc_iseven(int num){
     if(num % 2 == 0){
