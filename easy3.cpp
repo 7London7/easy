@@ -9,7 +9,7 @@ double itc_fmin(double num, double num2){
 }
 int itc_sqrt(int num){
     for (long long i = 0; i < num; i++){
-        if(num - i * i == 0){
+        if(i * i == 0){
             return i;
         }
     }
