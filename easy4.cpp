@@ -13,6 +13,12 @@ double itc_scir(int radius){
 }
 double itc_pow(int num, int step){
      int a = num; 
+        if(step == 0){
+                return 1;
+        }
+        if(num == 0){
+                return 0;
+        }
      if(step > 0){ 
          for (int i = 1; i < step;i++){ 
              a = a * num; 
