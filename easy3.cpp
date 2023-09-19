@@ -42,8 +42,7 @@ int itc_str(int a, int b, int c){
     p = 3.14;
     sum = (p * (p - a)*(p - b)*(p - c));
     return itc_sqrt(sum);
-    }
-    else{
+    }else{
         return -1;
     }
 }
