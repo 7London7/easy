@@ -15,13 +15,16 @@ double itc_pow(int num, int step){
      int a = num; 
      if(step > 0){ 
          for (int i = 1; i < step;i++){ 
-             a = num * num; 
+             a = a * num; 
   } 
          return a; 
      } 
      if(step < 0){
-
+        for(int r; r > step; r--){
+        a = a * num;
  }
+             return a;
+}
 }
 bool itc_ispositive(int num){
     if(num >= 0){
