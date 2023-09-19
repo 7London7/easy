@@ -14,10 +14,7 @@ int itc_sqrt(int num){
             return i;
         }
     }
-    }else{
-    return -1;
-    }
-}
+} return -1;
 int itc_skv(int num){
     int a;
     if(num > 0){
