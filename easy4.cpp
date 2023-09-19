@@ -12,7 +12,16 @@ double itc_scir(int radius){
         }
 }
 double itc_pow(int num, int step){
- return 0;
+     int a = num; 
+     if(step > 0){ 
+         for (int i = 1; i < step;i++){ 
+             a = num * num; 
+  } 
+         return a; 
+     } 
+     if(step < 0){
+
+ }
 }
 bool itc_ispositive(int num){
     if(num >= 0){
