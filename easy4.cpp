@@ -23,7 +23,7 @@ double itc_pow(int num, int step){
         for(int r; r > step; r--){
         a = a * num;
  }
-             return a;
+             return  1.0 / a;
 }
 }
 bool itc_ispositive(int num){
