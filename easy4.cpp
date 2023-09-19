@@ -20,7 +20,7 @@ double itc_pow(int num, int step){
          return a; 
      } 
      if(step < 0){
-             -1 * a;
+             step = -1 * step;
         for (int i = 1; i < step;i++){
         a = a * num;
  }
