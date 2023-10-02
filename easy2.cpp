@@ -1,47 +1,54 @@
-#include "easy.h"
 #include <iostream>
 using namespace std;
+#include "middle.h"
+
 int itc_revnbr(int num){
-    int a = 0;
-    int k = 0;
-    if(num < 0){
-    num = itc_fabs(num);
+    int zefra, ch = 0;
     while(num > 0){
-  a = num % 10;
+  zefra = num % 10;
+    ch = ch * 10 + zefra;
   num = num / 10;
-  k = k * 10 + a;
     }
-        return k * -1;
-        }else{
-        while(num > 0){
-  a = num % 10;
-  num = num / 10;
-  k = k * 10 + a;
-            }
-        return k;
-        }
-    }
-bool itc_iseven(int num){
-    if(num % 2 == 0){
-        return true;
-    }
-    return false;
+  return ch;
+   }
+int itc_rev_num(long long number){
+int a = 0,i = 0;
+    int k = 0;
+    number = itc_revnbr(number);
+  while(number > 0){
+        i = i + 1;
+      a =  number % 10;
+      number = number / 10;
+  }
+  return i;
 }
-int itc_max(int num, int num2){
-    if(num > num2){
-        return num;
+int itc_null_count(long long number){
+    int a = 0, i;
+    while(number > 0){
+      a = number % 10;
+      number = number / 10;
+    if(a == 0){
+        i = i + 1;
     }
-    return num2;
+    }return i;
+    }
+bool itc_mirror_num(long long number){
+    int i;
+        i = itc_revnbr(number);
+   if(number == i){
+     return "TRUE";
+      }else{
+      return "FALSE";
+      }
 }
-int itc_min(int min1, int min2){
-    if(min1 < min2){
-        return min1;
-    }
-    return min2;
-}
-double itc_fmax(double num, double num2){
-    if(num > num2){
-        return num;
-    }
-    return num2;
+int itc_mirror_count(long long number){
+    int i, b = 1;
+        i = itc_revnbr(number);
+        while(b < number){
+   if(number == i){
+        b = b + 1;
+   }else{
+   b = b + 0;
+   }
+        }return  b;
 }
