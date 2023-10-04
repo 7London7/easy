@@ -48,7 +48,7 @@ void loop()
         analogWrite(11, i);
         analogWrite(12, i);
         analogWrite(13, i);
-        deley(5); // РёР»Рё 10
+        deley(5);
 
     }
     int value;
