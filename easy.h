@@ -1,4 +1,4 @@
-//int allpin = 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13;
+int allpin[]{2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
 
 void setup()
 {
@@ -20,35 +20,36 @@ void setup()
 
 void loop()
 {
-    digitalWrite(2, HIGH);
-    digitalWrite(3, HIGH);
-    digitalWrite(4, HIGH);
-    digitalWrite(5, HIGH);
-    digitalWrite(6, HIGH);
-    digitalWrite(7, HIGH);
-    digitalWrite(8, HIGH);
-    digitalWrite(9, HIGH);
-    digitalWrite(10, HIGH);
-    digitalWrite(11, HIGH);
-    digitalWrite(12, HIGH);
-    digitalWrite(13, HIGH);
+//    digitalWrite(2, HIGH);
+  //  digitalWrite(3, HIGH);
+  //  digitalWrite(4, HIGH);
+  //  digitalWrite(5, HIGH);
+  //  digitalWrite(6, HIGH);
+   // digitalWrite(7, HIGH);
+   // digitalWrite(8, HIGH);
+  //  digitalWrite(9, HIGH);
+  //  digitalWrite(10, HIGH);
+  //  digitalWrite(11, HIGH);
+  //  digitalWrite(12, HIGH);
+  //  digitalWrite(13, HIGH);
+    digitalWrite(allpin, HIGH);
     delay(1000);
     for(int i = 255; i >= 0; i--){
-          //  analogWrite(allpin, i);
-          // delay(5);
-        analogWrite(2, i);
-        analogWrite(3, i);
-        analogWrite(4, i);
-        analogWrite(5, i);
-        analogWrite(6, i);
-        analogWrite(7, i);
-        analogWrite(8, i);
-        analogWrite(9, i);
-        analogWrite(10, i);
-        analogWrite(11, i);
-        analogWrite(12, i);
-        analogWrite(13, i);
-        deley(5);
+          analogWrite(allpin, i);
+          delay(5);
+     //   analogWrite(2, i);
+     //   analogWrite(3, i);
+      //  analogWrite(4, i);
+      //  analogWrite(5, i);
+        //analogWrite(6, i);
+        //analogWrite(7, i);
+      //  analogWrite(8, i);
+       // analogWrite(9, i);
+        //analogWrite(10, i);
+        //analogWrite(11, i);
+        //analogWrite(12, i);
+        //analogWrite(13, i);
+        //delay(5);
 
     }
     int value;
