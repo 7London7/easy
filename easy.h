@@ -1,4 +1,4 @@
-//int allpin = 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13; РЅР°РґРѕ СЃРїСЂРѕСЃРёС‚СЊ СЂР°Р±РѕС‚Р°РµС‚ Р»Рё СЌС‚Рѕ
+//int allpin = 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13;
 
 void setup()
 {
@@ -34,8 +34,8 @@ void loop()
     digitalWrite(13, HIGH);
     delay(1000);
     for(int i = 255; i >= 0; i--){
-          //  analogWrite(allpin, i); РЅР°РґРѕ СЃРїСЂРѕСЃРёС‚СЊ СЂР°Р±РѕС‚Р°РµС‚ Р»Рё СЌС‚Рѕ
-          // delay(5); РёР»Рё 10
+          //  analogWrite(allpin, i);
+          // delay(5);
         analogWrite(2, i);
         analogWrite(3, i);
         analogWrite(4, i);
